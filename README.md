@@ -3,7 +3,7 @@ The user provides the restaurant name and city as a single string, and the appli
 
 API endpoint : GET /restaurant/location
 ex input : pizza hut bangalore ( Restaurant name and city )
-request : http://localhost:8080/restaurant/location?name=pizza hut bangalore
+request : http://localhost:8080/restaurant/location?name=pizza%20hut%20bangalore
 ex response : {
     "restaurant": "pizza hut bangalore",
     "latitude": 12.9955319,

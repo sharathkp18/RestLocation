@@ -20,7 +20,6 @@ class LocationClientTest {
 
     @Test
     void shouldCallExternalAPI() {
-
         assertNotNull(client);
     }
 }

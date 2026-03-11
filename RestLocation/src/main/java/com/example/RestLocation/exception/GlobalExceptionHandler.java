@@ -29,7 +29,7 @@ public class GlobalExceptionHandler {
 
         return ResponseEntity
                 .status(HttpStatus.INTERNAL_SERVER_ERROR)
-                .body("Something went wrong");
+                .body("Internal Server Error");
     }
     @ExceptionHandler(NullPointerException.class)
     public ResponseEntity<String> handleNullPointer(NullPointerException ex) {
