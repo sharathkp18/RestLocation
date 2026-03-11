@@ -1,0 +1,3 @@
+curl
+--location
+GET 'http://localhost:8080/restaurant/location?name=pizza%20hut%20bangalore'
